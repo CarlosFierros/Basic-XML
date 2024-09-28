@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arboles [
+    <!ELEMENT arboles (arbol+)>
+    <!ELEMENT arbol (nombreCientifico, nombreComun, vegetacion, altura, forma, colorPrimavera?, resistenciaHeladas?)>
+    <!ELEMENT nombreCientifico (#PCDATA)>
+    <!ELEMENT nombreComun (#PCDATA)>
+    <!ELEMENT vegetacion (#PCDATA)>
+    <!ELEMENT altura (#PCDATA)>
+    <!ELEMENT forma (#PCDATA)>
+    <!ELEMENT colorPrimavera (#PCDATA)>
+    <!ELEMENT resistenciaHeladas (#PCDATA)>
+]>
+<arboles>
+    <arbol>
+        <nombreCientifico>Acer monspessulanum</nombreCientifico>
+        <nombreComun>Arce de Montpellier, Arce menor</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <forma>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma>
+        <colorPrimavera>Haz verde brillante, envés verde blanquecino</colorPrimavera>
+        <resistenciaHeladas>Heladas fuertes (hasta -15°C)</resistenciaHeladas>
+    </arbol>
+    <arbol>
+        <nombreCientifico>Olea europea</nombreCientifico>
+        <nombreComun>Olivo</nombreComun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>De 8 a 15 metros</altura>
+        <forma>Copa irregular. Tronco principal irregular con bifurcaciones</forma>
+    </arbol>
+    <arbol>
+        <nombreCientifico>Ramaje tortuoso</nombreCientifico>
+        <nombreComun></nombreComun>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <forma></forma>
+        <colorPrimavera>Haz verde oscuro, envés de plateado</colorPrimavera>
+        <resistenciaHeladas>Heladas medias (hasta -10°C)</resistenciaHeladas>
+    </arbol>
+    <arbol>
+        <nombreCientifico>Platanus orientalis</nombreCientifico>
+        <nombreComun>Plátano</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 20 a 25 metros</altura>
+        <forma>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma>
+        <colorPrimavera>Haz verde medio, envés verde claro</colorPrimavera>
+        <resistenciaHeladas>Heladas fuertes (hasta -20°C)</resistenciaHeladas>
+    </arbol>
+    <arbol>
+        <nombreCientifico>Quercus ilex</nombreCientifico>
+        <nombreComun>Encina</nombreComun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>En torno a 25 metros</altura>
+        <forma>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</forma>
+        <colorPrimavera>Plateado en hojas jóvenes, haz verde oscuro en hojas antiguas</colorPrimavera>
+        <resistenciaHeladas>Heladas fuertes (hasta -15°C)</resistenciaHeladas>
+    </arbol>
+</arboles>

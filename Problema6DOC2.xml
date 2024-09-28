@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
+    <!ELEMENT libros (libro+)>
+    <!ELEMENT libro (titulo, autor, descripcion)>
+    <!ATTLIST libro id ID #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+]>
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor>cervantes</autor>
+        <descripcion>Es el mejor libro de cervantes.</descripcion>
+    </libro>
+</libros>

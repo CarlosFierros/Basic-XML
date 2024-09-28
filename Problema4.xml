@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE CDs [
+    <!ELEMENT CDs (CD+)>
+    <!ELEMENT CD (titulo, artista, país, compañiaDiscografica, precio, añopublicacion)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT artista (#PCDATA)>
+    <!ELEMENT país (#PCDATA)>
+    <!ELEMENT compañiaDiscografica (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT añopublicacion (#PCDATA)>
+]>
+<CDs>
+    <CD>
+        <titulo>Still got the blues</titulo>
+        <artista>Gary Moore</artista>
+        <país>UK</país>
+        <compañiaDiscografica>Virgin records</compañiaDiscografica>
+        <precio>10.20</precio>
+        <añopublicacion>1990</añopublicacion>
+    </CD>
+    <CD>
+        <titulo>One night only</titulo>
+        <artista>Bee Gees</artista>
+        <país>UK</país>
+        <compañiaDiscografica>Polydor</compañiaDiscografica>
+        <precio>10.90</precio>
+        <añopublicacion>1998</añopublicacion>
+    </CD>
+    <CD>
+        <titulo>When a man loves a woman</titulo>
+        <artista>Percy Sledge</artista>
+        <país>USA</país>
+        <compañiaDiscografica>Atlantic</compañiaDiscografica>
+        <precio>8.70</precio>
+        <añopublicacion>1987</añopublicacion>
+    </CD>
+    <CD>
+        <titulo>Big Willie style</titulo>
+        <artista>Will smith</artista>
+        <país>USA</país>
+        <compañiaDiscografica>Columbia</compañiaDiscografica>
+        <precio>9.90</precio>
+        <añopublicacion>1998</añopublicacion>
+    </CD>
+    <CD>
+        <titulo>La canción de Juan Perro</titulo>
+        <artista>Radio Futura</artista>
+        <país>España</país>
+        <compañiaDiscografica>Sonic Music-Ariola</compañiaDiscografica>
+        <precio>9.90</precio>
+        <añopublicacion>1987</añopublicacion>
+    </CD>
+    <CD>
+        <titulo>The dock of the bay</titulo>
+        <artista>Otis Redding</artista>
+        <país>USA</país>
+        <compañiaDiscografica>Atlantic</compañiaDiscografica>
+        <precio>7.90</precio>
+        <añopublicacion>1987</añopublicacion>
+    </CD>
+</CDs>

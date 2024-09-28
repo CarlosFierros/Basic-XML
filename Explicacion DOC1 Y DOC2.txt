@@ -1,0 +1,7 @@
+DOC1 Problemas: 
+
+En el Documento 1, hay varios problemas. Primero, la etiqueta documento no está cerrada correctamente al final, ya que el cierre aparece mal posicionado y fuera de lugar. Además, se usa incorrectamente la etiqueta <destacar>, que no está definida dentro del documento y debería ser un elemento bien formado o eliminarse. El atributo en imagen fichero="imagen.gif" no tiene comillas alrededor del valor del atributo, lo cual es incorrecto en XML. También, la etiqueta <p> está utilizada de manera inconsistente, y una de ellas carece de contenido, lo que podría causar problemas de validación.
+
+DOC2 Problemas:
+
+En el Documento 2, hay varios problemas de estructura y etiquetas mal cerradas. La etiqueta <Libros> está mal capitalizada en la apertura y el cierre, ya que debe estar escrita de manera consistente como <libros>. Además, la etiqueta <libro> dentro de <libros> no está cerrada correctamente; el uso correcto es /libro> al final de cada libro. También, el uso de atributos en autor nombre=cervantes está mal escrito porque los valores de los atributos deben ir entre comillas, es decir, debería ser nombre="cervantes".

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE factura [
+    <!ELEMENT factura (contactoEmpresa, detalleEnvio, productos, totalFactura)>
+
+    <!ELEMENT contactoEmpresa (nombreEmpresa, direccion, ciudad, email, web)>
+    <!ELEMENT nombreEmpresa (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT web (#PCDATA)>
+    
+    <!ELEMENT detalleEnvio (CobroA, enviarA, numeroFactura, fechaFactura, fechaVencimiento)>
+    <!ELEMENT CobroA (#PCDATA)>
+    <!ELEMENT enviarA (#PCDATA)>
+    <!ELEMENT numeroFactura (#PCDATA)>
+    <!ELEMENT fechaFactura (#PCDATA)>
+    <!ELEMENT fechaVencimiento (#PCDATA)>
+    
+    <!ELEMENT productos (producto+)>
+    <!ELEMENT producto (descripcion, cantidad, precioUnidad)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT precioUnidad (#PCDATA)>
+    <!ELEMENT total (#PCDATA)>
+    
+    <!ELEMENT totalFactura (subtotal, impuestos, envio, totalGeneral)>
+    <!ELEMENT subtotal (#PCDATA)>
+    <!ELEMENT impuestos (#PCDATA)>
+    <!ELEMENT totalGeneral (#PCDATA)>
+    <!ELEMENT envio (#PCDATA)>
+]>
+<factura>
+    <contactoEmpresa>
+        <nombreEmpresa>Nombre Empresa</nombreEmpresa>
+        <direccion>Dirección de la Empresa</direccion>
+        <ciudad>Ciudad, Estado, Código Postal</ciudad>
+        <email>email@empresa.com</email>
+        <web>www.empresa.com</web>
+    </contactoEmpresa>
+    <detalleEnvio>
+        <CobroA>Nombre del Cliente</CobroA>
+        <enviarA>Dirección del Cliente</enviarA>
+        <numeroFactura>12345</numeroFactura>
+        <fechaFactura>01/01/2024</fechaFactura>
+        <fechaVencimiento>30/01/</fechaVencimiento>
+    </detalleEnvio>
+    <productos>
+        <producto>
+            <descripcion>descripcion del producto</descripcion>
+            <cantidad>cantidad de producto</cantidad>
+            <precioUnidad>precio de la unidad</precioUnidad>
+        </producto>
+    </productos>
+    <totalFactura>
+        <subtotal>subtotal</subtotal>
+        <impuestos>impuestos</impuestos>
+        <envio>precio de envio</envio>
+        <totalGeneral>Precio total</totalGeneral>
+    </totalFactura>
+</factura>
